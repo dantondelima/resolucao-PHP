@@ -24,6 +24,12 @@
             elseif ($vf > 60 && $vf <= 80) {
                 echo "Velocidade de cruzeiro";
             }
+            elseif ($vf > 80 && $vf <= 120) {
+                echo "Veículo rápido";
+            }
+            else {
+                echo "Veículo muito rápido";
+            }
         ?>
     </div>
 </body>
