@@ -15,7 +15,10 @@
             $media = ($n1 + 2 * $n2) / 3;
 
             if($media >= 5){
-                echo "A média é $media e a situação do aluno é: Aprovado"
+                echo "A média é $media e a situação do aluno é: Aprovado";
+            }
+            else {
+                echo "A média é $media e a situação do aluno é: Reprovado";
             }
         ?>
     </div>
