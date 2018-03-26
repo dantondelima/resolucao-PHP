@@ -14,7 +14,9 @@
             $n2 = $_GET["n2"];
             $media = ($n1 + 2 * $n2) / 3;
 
-            
+            if($media >= 5){
+                echo "A média é $media e a situação do aluno é: Aprovado"
+            }
         ?>
     </div>
 </body>
