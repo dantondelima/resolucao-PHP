@@ -10,15 +10,10 @@
 <body>
     <div>
         <?php 
-            $n1 = $_GET["n1"];
-            $n2 = $_GET["n2"];
-            $media = ($n1 + 2 * $n2) / 3;
-
-            if($media >= 5){
-                echo "A média é $media e a situação do aluno é: Aprovado";
-            }
-            else {
-                echo "A média é $media e a situação do aluno é: Reprovado";
+            for ($i=1; $i <= 20 ; $i++) { 
+                for ($j=1; $j <= 10 ; $j++) { 
+                    echo "$i X $j = ".$i * $j."<br>";
+                }
             }
         ?>
     </div>
