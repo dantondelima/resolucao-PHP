@@ -19,7 +19,7 @@
                 if($imc < 20){
                     echo "Abaixo do peso";
                 }
-                elseif ($imc >= 20 && $imc < 25) {
+                elseif ($imc < 25) {
                    echo "Peso ideal";
                 } 
                 else {
